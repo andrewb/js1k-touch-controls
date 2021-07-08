@@ -1,0 +1,13 @@
+{
+  "name": "js1k-touch-controls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew Berry <andy+github@berry.email>",
+  "license": "MIT",
+  "scripts": {
+    "build": "terser index.js -o min.js"
+  },
+  "dependencies": {
+    "terser": "^5.7.1"
+  }
+}
